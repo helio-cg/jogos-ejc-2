@@ -1,0 +1,11 @@
+- O subuser pode ver todos participante cadastrado em uma tabela agrupado por modalidade
+- criar resource somente leitra para ver registro de loga para saber quem fez o que, dia e hora. Cada ção de cada usuário deve ser registrada e logo. de criar, alterar modalidade
+- somente o user pai pode remover
+- sub user pode fazer tudo, menos remover, mudar status de pagamento. resumindo pode cadastrar, ver todos os participantes e alterar modadlidade
+- nada impede do participante participar de todas as modalidade
+- ajustar bem para que não seja permitido ver subuser e participantes de outras paroqias de outras pararoquias
+- os cauculos de todos os widget get e pagamento deve ser por paroquia
+- adicionar campo na model participante, conhecido_como
+- clicar em confimar pagamento pelo admin, não deve mudar status de participante somente muda status user para completo
+- user estiver com status completo não permitir mais cadastra nem fazer alterações
+- exibe na tela de sub user que apenas o usuário pai pode confirmar pagamento e remover participantes, todo pagamento deve ser enviado ao user pai para que possa ser enviado ao financeiro da organização o valor total para confirmar a inscrição
