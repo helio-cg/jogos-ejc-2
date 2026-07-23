@@ -18,14 +18,13 @@
                 <h3 class="text-lg font-semibold text-gray-900 mb-4">Pagamento via PIX</h3>
                 <div class="flex flex-col items-center">
                     @if($pixKey)
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={{ urlencode($pixKey) }}"
-                             alt="QR Code PIX"
-                             class="mb-4 rounded-lg"
-                             style="width: 200px; height: 200px;">
-                        <p class="text-sm text-gray-600 mb-2">Chave PIX:</p>
-                        <p class="text-base font-mono font-bold text-gray-900 break-all text-center">{{ $pixKey }}</p>
+                        <p class="text-sm text-gray-600 mb-6 text-center">Use a chave pix CPF abaixo para fazer o pagamento e envie comprovante via WhatsApp para número ao lado. Digite o valor mostrado ao lado que é a soma de todos os participantes cadastrados.</p>
+                        <p class="text-lg text-gray-600 font-bold">Maria Davila Rodrigues dos Santos</p>
+                        <p class="text-sm text-gray-600 mb-4">Caixa Economica Federal</p>
+                        <p class="text-sm text-gray-600 mb-2">Chave PIX CPF:</p>
+                        <p class="text-2xl font-mono font-bold text-gray-900 break-all text-center">{{ $pixKey }}</p>
                         <button onclick="navigator.clipboard.writeText('{{ $pixKey }}').then(() => { this.innerText = 'Copiado!'; setTimeout(() => this.innerText = 'Copiar Chave', 2000); })"
-                                class="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-500">
+                                class="mt-3 inline-flex items-center gap-1 text-lg font-medium text-primary-600 hover:text-primary-500">
                             <x-filament::icon alias="heroicon-o-clipboard-document" class="w-4 h-4" />
                             Copiar Chave
                         </button>

@@ -66,7 +66,7 @@
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                 </div>
                 <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider">Data</p>
-                <p class="text-xl font-bold text-gray-900 mt-1">16 de Agosto de 2026</p>
+                <p class="text-xl font-bold text-gray-900 mt-1">23 de Agosto de 2026</p>
             </div>
             <div class="group">
                 <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-sky-100 to-sky-50 text-sky-600 flex items-center justify-center transition-all group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-sky-200/30">

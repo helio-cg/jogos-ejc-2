@@ -37,7 +37,7 @@
         <div class="max-w-3xl mx-auto">
             <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-sm font-semibold mb-8">
                 <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                16 de Agosto de 2026
+                23 de Agosto de 2026
             </div>
             <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4">
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-sky-500">
